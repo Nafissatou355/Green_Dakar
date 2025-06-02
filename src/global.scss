@@ -35,3 +35,20 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+:root {
+  --ion-color-green-dakar: #2E7D32;  // Vert foncé
+  --ion-color-green-dakar-rgb: 46,125,50;
+  --ion-color-green-dakar-contrast: #ffffff;  // Texte en blanc
+  --ion-color-green-dakar-contrast-rgb: 255,255,255;
+  --ion-color-green-dakar-shade: #286e2c;
+  --ion-color-green-dakar-tint: #438a47;
+}
+
+.ion-color-green-dakar {
+  --ion-color-base: var(--ion-color-green-dakar);
+  --ion-color-base-rgb: var(--ion-color-green-dakar-rgb);
+  --ion-color-contrast: var(--ion-color-green-dakar-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-green-dakar-contrast-rgb);
+  --ion-color-shade: var(--ion-color-green-dakar-shade);
+  --ion-color-tint: var(--ion-color-green-dakar-tint);
+}
