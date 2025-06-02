@@ -1,0 +1,7 @@
+{
+  "name": "green-dakar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
