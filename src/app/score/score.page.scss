@@ -1,0 +1,37 @@
+.map-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.carte-img {
+  width: 100%;
+  max-height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.score-card {
+  margin-top: -20px;
+  border-radius: 14px;
+}
+
+.score-number {
+  float: right;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.chart-img {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  color: #378e53;
+}

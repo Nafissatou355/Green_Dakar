@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Score d’insalubrité</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- Image de carte -->
+  <div class="map-container">
+    <img src="assets/img/carte-dakar.png" alt="Carte de Dakar" class="carte-img" />
+  </div>
+
+  <!-- Bloc d’infos -->
+  <ion-card >
+    <ion-card-header>
+      <ion-card-title>
+        Grand Yoff <span class="score-number">52 / 100</span>
+      </ion-card-title>
+      <ion-progress-bar value="0.52" color="warning"></ion-progress-bar>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <p><strong>Gravité</strong><br>Moyenne</p>
+            <p><strong>Nuisances signalées</strong></p>
+            <ul>
+              <li>🗑️ Ordures</li>
+              <li>💧 Eaux stagnantes</li>
+              <li>⚠️ Autres</li>
+            </ul>
+          </ion-col>
+          <ion-col size="6">
+            <p><strong>Dernier signalement</strong><br>il y a 2 jours</p>
+            <img src="assets/img/piechart.png" alt="Graphique" class="chart-img" />
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="button-row">
+    <ion-button expand="block" color="success" shape="round">Voir tous les signalements</ion-button>
+    <ion-button expand="block"  color="success"shape="round" >Télécharger rapport PDF</ion-button>
+  </div>
+</ion-content>
+
+<!-- Barre de navigation -->
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="stats">
+      <ion-icon name="bar-chart-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="search">
+      <ion-icon name="search-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>

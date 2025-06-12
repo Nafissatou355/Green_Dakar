@@ -46,6 +46,10 @@ export const routes: Routes = [
   },  {
     path: 'login',
     loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
+  },
+  {
+    path: 'score',
+    loadComponent: () => import('./score/score.page').then( m => m.ScorePage)
   }
 
 
